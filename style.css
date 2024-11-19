@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: none;
+    position: absolute;
+    align-items: center;
+    width: 25%;
+}
+.logo{
+    padding-right: 10px;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav {
+    justify-content: space-between;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+}
+.image-section{
+    flex: 1.5;
+    background-image: url(images/desktop-image-hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.text-section {
+    flex: 1;
+}
+.text-section-txt{
+    padding: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.text-section h1 {
+    font-size: 35px;
+}
+
+.text-section p {
+    margin: 15px 0;
+    color: #8b8b8b;
+    word-spacing: 2px;
+    
+}
+
+.shop-now {
+    color: black;
+    letter-spacing: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.arrows {
+    display: flex;
+    top: 3%;
+    position: relative;
+    left: 0%;
+}
+
+.arrow {
+    padding: 30px 30px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.about {
+    background: #fff;
+    text-align: center;
+    display: flex;
+}
+.furniture-pic1{
+    flex: 1;
+    background-image: url(images/desktop-image-hero-3.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.furniture-text{
+    flex: 1;
+}
+.furniture-pic2{
+    flex: 1;
+    background-image: url(images/image-about-light.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
