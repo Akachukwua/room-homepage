@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-y: hidden;
 }
 
 header {
@@ -46,14 +47,14 @@ header nav a:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 60vh;
 }
 
 .text-section {
     flex: 1;
 }
 .text-section-txt{
-    padding: 90px;
+    padding: 0 90px;
     align-items: center;
     justify-content: center;
 }
@@ -77,9 +78,9 @@ header nav a:hover{
 
 .arrows {
     display: flex;
-    top: 3%;
-    position: relative;
-    left: 0%;
+    position: fixed;
+    top: 345px;
+
 }
 
 .arrow {
@@ -97,19 +98,28 @@ header nav a:hover{
 }
 .furniture-pic1{
     flex: 1;
-    background-image: url(images/desktop-image-hero-3.jpg);
-    height: 50vh;
+    background-image: url(images/image-about-dark.jpg);
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .furniture-text{
     flex: 1;
+    text-align: justify;
+    padding: 20px;
 }
 .furniture-pic2{
     flex: 1;
     background-image: url(images/image-about-light.jpg);
-    height: 50vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.furniture-text p{
+    color: #8b8b8b;
+    margin-top: 2px;
+}
+.furniture-text h2{
+    letter-spacing: 5px;
 }
